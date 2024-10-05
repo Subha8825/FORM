@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Car Booking Form</h1>
+    <form>
+        <h2>personal Details</h2>
+        <label for="name">First Name</label>
+        <input type="text" name="First Name" id="name" required>
+        <br><br>
+        <label for="lastname">Last Name</label>
+        <input type="text" name="Last Name" id="lastname" required>
+        <br><br>
+        <label for="mail">Email</label>
+        <input type="email" name="Email" id="mail" required>
+        <br><br>
+        <label for="phonenumber">Phone Number</label>
+        <input type="text" name="Number" id="phonenumber" required>
+        <br><br>
+
+
+        <h2>Booking details</h2>
+        <br><br>
+        <label for="pickdate">pick up (date)</label>
+        <input type="date" name="pickupdate" id="pickdate" required>
+        <br><br>
+        <label for="picktime">pick up (Time)</label>
+        <input type="time" name="pickuptime" id="picktime" required>
+        <br><br>
+
+        <label>No of Passenger</label>
+        <br>
+        <input type="radio" name="No of passenger" >
+        <label>One</label>
+        <input type="radio" name="No of passenger">
+        <label>Two</label>
+        <input type="radio" name="No of passenger">
+        <label>Three</label>
+        <input type="radio" name="No of passenger">
+        <label>Four</label>
+        <br><br>
+
+        <lable>Choose a Vehicle</lable>
+        <br>
+        <select >
+            <option value="One">Hatchback (4 seats)</option>
+            <option value="Two">Sedan (3 seats)</option>
+            <option value="Three">Xylo(5 seats)</option>
+            <option value="Four">Swift(4 seats)</option>
+        </select>
+        <br><br>
+
+
+        <h3>Pick Up Address</h3>
+        <label>Street</label>
+        <input type="text" required>
+        <br><br>
+        <label>City</label>
+        <input type="text" required>
+        <br><br>
+        <label>State</label>
+        <input type="text" required>
+        <br><br>
+        <label>pin code</label>
+        <input type="text" required>
+        <br><br>
+
+
+        <h3>Destination Address</h3>
+        <label>Street</label>
+        <input type="text" required>
+        <br><br>
+        <label>City</label>
+        <input type="text" required>
+        <br><br>
+        <label>State</label>
+        <input type="text" required>
+        <br><br>
+        <label>pin code</label>
+        <input type="text" required>
+        <br><br>
+
+        <label>Message</label>
+        <br>
+        <textarea rows="4" cols="50" placeholder="Message...!"></textarea>
+        <br><br>
+
+        <input type="checkbox">
+        <label>Terms and conditions</label>
+        <br><br>
+
+        <input type="Submit">
+    </form>
+</body>
+</html>
